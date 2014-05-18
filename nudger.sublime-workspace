@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spri",
+				"Sprintf	string ƒ"
+			],
+			[
+				"Sp",
+				"Sprintf	string ƒ"
+			],
+			[
+				"con",
+				"configType	struct ʈ"
+			],
+			[
+				"Pr",
+				"Print	 ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/config.go",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/config_test.go",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nudger.go",
+			"settings":
+			{
+				"buffer_size": 1681,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sgrimee/go/src/github.com/sgrimee/nudger/lib/config.go",
+		"/Users/sgrimee/go/src/github.com/sgrimee/nudger/lib/config_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/main.go",
+		"/Users/sgrimee/go/src/github.com/sgrimee/nudger/README.md",
+		"/Users/sgrimee/go/src/github.com/go-martini/martini/martini.go",
+		"/Users/sgrimee/go/src/github.com/go-martini/martini/env.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/lib/config_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/envy/lib/env_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/envy/lib/env.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/envy/autoload/autoload.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/lib/mocks_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/lib/helpers_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/lib/builder.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/lib/config.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/README.md",
+		"/Users/sgrimee/go/src/github.com/codegangsta/gin/wercker.yml",
+		"/Users/sgrimee/go/src/github.com/go-martini/martini/logger_test.go",
+		"/Users/sgrimee/go/src/github.com/go-martini/martini/go_version.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/cli/flag.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/cli/command_test.go",
+		"/Users/sgrimee/go/src/github.com/codegangsta/cli/app_test.go",
+		"/Users/sgrimee/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/Users/sgrimee/Dropbox/Perso/Programming/Go/server.go",
+		"/Users/sgrimee/big_data_broker",
+		"/Users/sgrimee/Library/Application Support/Sublime Text 3/Packages/GoSublime/README.md",
+		"/Users/sgrimee/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getItems",
+			"ActionItem",
+			"gin",
+			"env",
+			"NudgeItem",
+			"Error"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/config.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/config_test.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "nudger.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "nudger.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,5 @@
+{
+  "items_dir": "."
+  ,"nudge_cmd": "ls"
+  ,"nudge_args": "-lah"
+}
