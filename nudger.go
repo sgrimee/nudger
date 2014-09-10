@@ -1,12 +1,16 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"github.com/go-martini/martini"
 	"github.com/sgrimee/nudger/lib"
+	//"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"os/exec"
+	//"strings"
 )
 
 var config *nudger.ConfigType
@@ -60,11 +64,18 @@ func listDir(itemsDir string) []string {
 
 // Execute the action on the item
 // only if it is in the authorized list
-func NudgeItem(params martini.Params) string {
+func NudgeItem(params martini.Params, r *http.Request) string {
+	//requestBody, err := ioutil.ReadAll(r.Body)
 	for _, validItem := range listDir(config.ItemsDir) {
 		if validItem == params["item"] {
 			// execute the action
-			out, err := exec.Command(config.NudgeCmd, config.NudgeArgs, params["item"]).Output()
+			//out, err := exec.Command(config.NudgeCmd, config.NudgeArgs, params["item"]).Output()
+			cmd := exec.Command(config.NudgeCmd, config.NudgeArgs, params["item"])
+			//cmd.Stdin = strings.NewReader(string(r.Body))
+			cmd.Stdin = r.Body
+			var out bytes.Buffer
+			cmd.Stdout = &out
+			err := cmd.Run()
 			if err != nil {
 				return err.Error()
 			}
